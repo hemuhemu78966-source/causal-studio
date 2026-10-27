@@ -1,0 +1,24 @@
+.venv/
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+.pytest_cache/
+*.log
+artifacts/
+frontend/node_modules.previous/
+frontend/package-lock.previous.json
+
+# Local credentials and machine files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+*.pyc
+*.pyo
+.coverage
+htmlcov/
